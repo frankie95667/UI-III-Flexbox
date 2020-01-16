@@ -72,14 +72,17 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
 	font-size: larger;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: large;
+	text-transform: uppercase;
 }
 
 h3 {
 	font-size: medium;
+	text-transform: uppercase;
 }
 
 /***************** HEADER STYLES *********************/
@@ -180,4 +183,53 @@ footer {
 	margin-top: 60px;
 	display: flex;
 	justify-content: center;
+}
+
+/********************************************/
+/*********** SERVICES PAGE ******************/
+/********************************************/
+
+#marketing-msg {
+	border-bottom: 1px solid black;
+	padding: 30px 0;
+}
+
+/************ GRID *********************/
+#services-grid {
+	padding: 20px 0;
+}
+
+#services-grid div, #service-facts div {
+	width: 48%;
+}
+
+#services-grid div {
+	background-color: lightgray;
+	border: 1px solid black;
+	padding: 0 20px;
+	margin: 20px 0;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#services-grid div button {
+	text-align: center;
+	width: 140px;
+	height: 35px;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+
+#services-grid, #service-facts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+#service-facts {
+	border-top: 2px solid black;
+	padding: 30px 0;
 }
