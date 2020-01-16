@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 980px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: larger;
+}
+
+h2 {
+	font-size: large;
+}
+
+h3 {
+	font-size: medium;
+}
+
+/***************** HEADER STYLES *********************/
+.logo {
+	display: inline-block;
+}
+
+header nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 90px;
+	padding: 0 10px ;
+}
+
+nav .nav-links-group {
+	width: 70%;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+nav .nav-links-group a {
+	text-decoration: none;
+	color: lightgray;
+	width: 16%;
+}
+
+/********* HERO BANNER STYLES ***********/
+div.hero {
+	width: 100%;
+	border-bottom: solid 1px black;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.hero .text{
+	text-align: center;
+}
+
+.hero .text h1 {
+	font-size: 70px;
+}
+
+.hero .text button {
+	background-color: transparent;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+}
+
+/*********** MAIN CONTENT ***************/
+
+
+#features, #about {
+	width: 48%;
+}
+
+#first-section {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+section.row {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+
+.col-3-div {
+	width: 32%;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+
+.contact p {
+	padding-top: 20px;
+}
+
+.copyright {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
